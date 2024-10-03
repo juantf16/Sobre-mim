@@ -1,17 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dfe8e2;
+    color: black;
+
+}
+
+header {
+    padding: 2rem;
+    font-family: "Sedgwick Ave", cursive;
+    color: #0ec21a;
+    text-align: center;
+    width: 100%;
+
+}
+
 .perfil {
-    border-radius: 50px;
-    height: 100px;
-    width: 100px;
+    margin: 2rem;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
-.github {
-    height:30px ;
-    width: 30px;
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
 }
-.insta {
-    height: 30px;
-    width: 30px;
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
-.gmail {
-    height: 30px;
-    width: 35px0
+
+h2 {
+    color: #0ec21a;
+    text-align: center;
+    font-family: "Sedgwick Ave", cursive;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.logos {
+    height: 2rem;
+    height: 2rem;
 }
