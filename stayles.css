@@ -105,3 +105,44 @@ p {
     font-size: 1.5rem;
     text-align: center;
 }
+
+@media screen and (max-width:730px) {
+
+    p {
+        font-size: 20px;
+    }
+    .container-links {
+        display: flex;
+        flex-direction: column;
+        background-color: #0ec21a;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        padding: 0.5rem;
+        width: 100%;
+        border: solid #bbb;
+        height: 3rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    .links {
+        position: absolute;
+        top: 0.9rem;
+        left: 2.7rem;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        color: #dfe8e2;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .logos {
+        height: 2rem;
+        width: 2rem;
+        position: absolute;
+        top: 0.4rem;
+        left: 0.3rem;
+    
+    }
+}
